@@ -9,4 +9,8 @@
 /home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/main.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 
