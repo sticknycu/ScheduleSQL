@@ -42,7 +42,7 @@ Something about it:
 
 ## Syntax Arguments
 
-``-<type of action> <name of database> -<optional flag> <location database> <interaction flag> <location 1> <location 2> <location 3>``
+``-<type of action> <name of database> -<optional flag> <location database> -<interaction flag> <location 1> <location 2> <location 3>``
 
 
 
