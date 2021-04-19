@@ -1,0 +1,8 @@
+#ifndef SCHEDULESQL_ADDENTRY_H
+#define SCHEDULESQL_ADDENTRY_H
+
+void addEntry() {
+
+};
+
+#endif //SCHEDULESQL_ADDENTRY_H

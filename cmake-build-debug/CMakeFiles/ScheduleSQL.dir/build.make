@@ -128,12 +128,110 @@ CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.c" -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.s
 
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.o: CMakeFiles/ScheduleSQL.dir/flags.make
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.o: ../src/uso/instructions/add/addEntry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.o -c "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addEntry.c"
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addEntry.c" > CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.i
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addEntry.c" -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.s
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.o: CMakeFiles/ScheduleSQL.dir/flags.make
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.o: ../src/uso/instructions/add/addData.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.o -c "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addData.c"
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addData.c" > CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.i
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addData.c" -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.s
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.o: CMakeFiles/ScheduleSQL.dir/flags.make
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.o: ../src/uso/instructions/modify/modifyDataSimple.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.o -c "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.c"
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.c" > CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.i
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.c" -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.s
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.o: CMakeFiles/ScheduleSQL.dir/flags.make
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.o: ../src/uso/instructions/modify/modifyDataArgument.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.o -c "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.c"
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.c" > CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.i
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.c" -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.s
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.o: CMakeFiles/ScheduleSQL.dir/flags.make
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.o: ../src/uso/instructions/delete/deleteDataSimple.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.o -c "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.c"
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.c" > CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.i
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.c" -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.s
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.o: CMakeFiles/ScheduleSQL.dir/flags.make
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.o: ../src/uso/instructions/delete/deleteDataArgument.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.o -c "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.c"
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.c" > CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.i
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.c" -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.s
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.o: CMakeFiles/ScheduleSQL.dir/flags.make
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.o: ../src/uso/instructions/delete/deleteEntry.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.o -c "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteEntry.c"
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteEntry.c" > CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.i
+
+CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteEntry.c" -o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.s
+
 # Object files for target ScheduleSQL
 ScheduleSQL_OBJECTS = \
 "CMakeFiles/ScheduleSQL.dir/src/uso/main.c.o" \
 "CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.o" \
 "CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.o" \
-"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.o"
+"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.o" \
+"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.o" \
+"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.o" \
+"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.o" \
+"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.o" \
+"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.o" \
+"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.o" \
+"CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.o"
 
 # External object files for target ScheduleSQL
 ScheduleSQL_EXTERNAL_OBJECTS =
@@ -142,9 +240,16 @@ ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/main.c.o
 ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.o
 ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.o
 ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.o
+ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.o
+ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.o
+ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.o
+ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.o
+ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.o
+ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.o
+ScheduleSQL: CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.o
 ScheduleSQL: CMakeFiles/ScheduleSQL.dir/build.make
 ScheduleSQL: CMakeFiles/ScheduleSQL.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable ScheduleSQL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable ScheduleSQL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ScheduleSQL.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

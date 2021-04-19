@@ -142,6 +142,60 @@ ScheduleSQL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/build
 .PHONY : ScheduleSQL/fast
 
+src/uso/instructions/add/addData.o: src/uso/instructions/add/addData.c.o
+
+.PHONY : src/uso/instructions/add/addData.o
+
+# target to build an object file
+src/uso/instructions/add/addData.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.o
+.PHONY : src/uso/instructions/add/addData.c.o
+
+src/uso/instructions/add/addData.i: src/uso/instructions/add/addData.c.i
+
+.PHONY : src/uso/instructions/add/addData.i
+
+# target to preprocess a source file
+src/uso/instructions/add/addData.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.i
+.PHONY : src/uso/instructions/add/addData.c.i
+
+src/uso/instructions/add/addData.s: src/uso/instructions/add/addData.c.s
+
+.PHONY : src/uso/instructions/add/addData.s
+
+# target to generate assembly for a file
+src/uso/instructions/add/addData.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.s
+.PHONY : src/uso/instructions/add/addData.c.s
+
+src/uso/instructions/add/addEntry.o: src/uso/instructions/add/addEntry.c.o
+
+.PHONY : src/uso/instructions/add/addEntry.o
+
+# target to build an object file
+src/uso/instructions/add/addEntry.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.o
+.PHONY : src/uso/instructions/add/addEntry.c.o
+
+src/uso/instructions/add/addEntry.i: src/uso/instructions/add/addEntry.c.i
+
+.PHONY : src/uso/instructions/add/addEntry.i
+
+# target to preprocess a source file
+src/uso/instructions/add/addEntry.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.i
+.PHONY : src/uso/instructions/add/addEntry.c.i
+
+src/uso/instructions/add/addEntry.s: src/uso/instructions/add/addEntry.c.s
+
+.PHONY : src/uso/instructions/add/addEntry.s
+
+# target to generate assembly for a file
+src/uso/instructions/add/addEntry.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.s
+.PHONY : src/uso/instructions/add/addEntry.c.s
+
 src/uso/instructions/create.o: src/uso/instructions/create.c.o
 
 .PHONY : src/uso/instructions/create.o
@@ -196,6 +250,87 @@ src/uso/instructions/delete.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.s
 .PHONY : src/uso/instructions/delete.c.s
 
+src/uso/instructions/delete/deleteDataArgument.o: src/uso/instructions/delete/deleteDataArgument.c.o
+
+.PHONY : src/uso/instructions/delete/deleteDataArgument.o
+
+# target to build an object file
+src/uso/instructions/delete/deleteDataArgument.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.o
+.PHONY : src/uso/instructions/delete/deleteDataArgument.c.o
+
+src/uso/instructions/delete/deleteDataArgument.i: src/uso/instructions/delete/deleteDataArgument.c.i
+
+.PHONY : src/uso/instructions/delete/deleteDataArgument.i
+
+# target to preprocess a source file
+src/uso/instructions/delete/deleteDataArgument.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.i
+.PHONY : src/uso/instructions/delete/deleteDataArgument.c.i
+
+src/uso/instructions/delete/deleteDataArgument.s: src/uso/instructions/delete/deleteDataArgument.c.s
+
+.PHONY : src/uso/instructions/delete/deleteDataArgument.s
+
+# target to generate assembly for a file
+src/uso/instructions/delete/deleteDataArgument.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.s
+.PHONY : src/uso/instructions/delete/deleteDataArgument.c.s
+
+src/uso/instructions/delete/deleteDataSimple.o: src/uso/instructions/delete/deleteDataSimple.c.o
+
+.PHONY : src/uso/instructions/delete/deleteDataSimple.o
+
+# target to build an object file
+src/uso/instructions/delete/deleteDataSimple.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.o
+.PHONY : src/uso/instructions/delete/deleteDataSimple.c.o
+
+src/uso/instructions/delete/deleteDataSimple.i: src/uso/instructions/delete/deleteDataSimple.c.i
+
+.PHONY : src/uso/instructions/delete/deleteDataSimple.i
+
+# target to preprocess a source file
+src/uso/instructions/delete/deleteDataSimple.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.i
+.PHONY : src/uso/instructions/delete/deleteDataSimple.c.i
+
+src/uso/instructions/delete/deleteDataSimple.s: src/uso/instructions/delete/deleteDataSimple.c.s
+
+.PHONY : src/uso/instructions/delete/deleteDataSimple.s
+
+# target to generate assembly for a file
+src/uso/instructions/delete/deleteDataSimple.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.s
+.PHONY : src/uso/instructions/delete/deleteDataSimple.c.s
+
+src/uso/instructions/delete/deleteEntry.o: src/uso/instructions/delete/deleteEntry.c.o
+
+.PHONY : src/uso/instructions/delete/deleteEntry.o
+
+# target to build an object file
+src/uso/instructions/delete/deleteEntry.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.o
+.PHONY : src/uso/instructions/delete/deleteEntry.c.o
+
+src/uso/instructions/delete/deleteEntry.i: src/uso/instructions/delete/deleteEntry.c.i
+
+.PHONY : src/uso/instructions/delete/deleteEntry.i
+
+# target to preprocess a source file
+src/uso/instructions/delete/deleteEntry.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.i
+.PHONY : src/uso/instructions/delete/deleteEntry.c.i
+
+src/uso/instructions/delete/deleteEntry.s: src/uso/instructions/delete/deleteEntry.c.s
+
+.PHONY : src/uso/instructions/delete/deleteEntry.s
+
+# target to generate assembly for a file
+src/uso/instructions/delete/deleteEntry.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.s
+.PHONY : src/uso/instructions/delete/deleteEntry.c.s
+
 src/uso/instructions/modify.o: src/uso/instructions/modify.c.o
 
 .PHONY : src/uso/instructions/modify.o
@@ -222,6 +357,60 @@ src/uso/instructions/modify.s: src/uso/instructions/modify.c.s
 src/uso/instructions/modify.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.s
 .PHONY : src/uso/instructions/modify.c.s
+
+src/uso/instructions/modify/modifyDataArgument.o: src/uso/instructions/modify/modifyDataArgument.c.o
+
+.PHONY : src/uso/instructions/modify/modifyDataArgument.o
+
+# target to build an object file
+src/uso/instructions/modify/modifyDataArgument.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.o
+.PHONY : src/uso/instructions/modify/modifyDataArgument.c.o
+
+src/uso/instructions/modify/modifyDataArgument.i: src/uso/instructions/modify/modifyDataArgument.c.i
+
+.PHONY : src/uso/instructions/modify/modifyDataArgument.i
+
+# target to preprocess a source file
+src/uso/instructions/modify/modifyDataArgument.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.i
+.PHONY : src/uso/instructions/modify/modifyDataArgument.c.i
+
+src/uso/instructions/modify/modifyDataArgument.s: src/uso/instructions/modify/modifyDataArgument.c.s
+
+.PHONY : src/uso/instructions/modify/modifyDataArgument.s
+
+# target to generate assembly for a file
+src/uso/instructions/modify/modifyDataArgument.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.s
+.PHONY : src/uso/instructions/modify/modifyDataArgument.c.s
+
+src/uso/instructions/modify/modifyDataSimple.o: src/uso/instructions/modify/modifyDataSimple.c.o
+
+.PHONY : src/uso/instructions/modify/modifyDataSimple.o
+
+# target to build an object file
+src/uso/instructions/modify/modifyDataSimple.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.o
+.PHONY : src/uso/instructions/modify/modifyDataSimple.c.o
+
+src/uso/instructions/modify/modifyDataSimple.i: src/uso/instructions/modify/modifyDataSimple.c.i
+
+.PHONY : src/uso/instructions/modify/modifyDataSimple.i
+
+# target to preprocess a source file
+src/uso/instructions/modify/modifyDataSimple.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.i
+.PHONY : src/uso/instructions/modify/modifyDataSimple.c.i
+
+src/uso/instructions/modify/modifyDataSimple.s: src/uso/instructions/modify/modifyDataSimple.c.s
+
+.PHONY : src/uso/instructions/modify/modifyDataSimple.s
+
+# target to generate assembly for a file
+src/uso/instructions/modify/modifyDataSimple.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.s
+.PHONY : src/uso/instructions/modify/modifyDataSimple.c.s
 
 src/uso/main.o: src/uso/main.c.o
 
@@ -259,15 +448,36 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ScheduleSQL"
+	@echo "... src/uso/instructions/add/addData.o"
+	@echo "... src/uso/instructions/add/addData.i"
+	@echo "... src/uso/instructions/add/addData.s"
+	@echo "... src/uso/instructions/add/addEntry.o"
+	@echo "... src/uso/instructions/add/addEntry.i"
+	@echo "... src/uso/instructions/add/addEntry.s"
 	@echo "... src/uso/instructions/create.o"
 	@echo "... src/uso/instructions/create.i"
 	@echo "... src/uso/instructions/create.s"
 	@echo "... src/uso/instructions/delete.o"
 	@echo "... src/uso/instructions/delete.i"
 	@echo "... src/uso/instructions/delete.s"
+	@echo "... src/uso/instructions/delete/deleteDataArgument.o"
+	@echo "... src/uso/instructions/delete/deleteDataArgument.i"
+	@echo "... src/uso/instructions/delete/deleteDataArgument.s"
+	@echo "... src/uso/instructions/delete/deleteDataSimple.o"
+	@echo "... src/uso/instructions/delete/deleteDataSimple.i"
+	@echo "... src/uso/instructions/delete/deleteDataSimple.s"
+	@echo "... src/uso/instructions/delete/deleteEntry.o"
+	@echo "... src/uso/instructions/delete/deleteEntry.i"
+	@echo "... src/uso/instructions/delete/deleteEntry.s"
 	@echo "... src/uso/instructions/modify.o"
 	@echo "... src/uso/instructions/modify.i"
 	@echo "... src/uso/instructions/modify.s"
+	@echo "... src/uso/instructions/modify/modifyDataArgument.o"
+	@echo "... src/uso/instructions/modify/modifyDataArgument.i"
+	@echo "... src/uso/instructions/modify/modifyDataArgument.s"
+	@echo "... src/uso/instructions/modify/modifyDataSimple.o"
+	@echo "... src/uso/instructions/modify/modifyDataSimple.i"
+	@echo "... src/uso/instructions/modify/modifyDataSimple.s"
 	@echo "... src/uso/main.o"
 	@echo "... src/uso/main.i"
 	@echo "... src/uso/main.s"

@@ -1,0 +1,8 @@
+#ifndef SCHEDULESQL_DELETEENTRY_H
+#define SCHEDULESQL_DELETEENTRY_H
+
+void deleteEntry() {
+
+};
+
+#endif //SCHEDULESQL_DELETEENTRY_H

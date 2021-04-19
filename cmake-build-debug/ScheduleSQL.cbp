@@ -76,6 +76,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addData.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addData.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addEntry.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addEntry.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
 		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/create.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
@@ -88,10 +100,40 @@
 		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteEntry.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteEntry.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
 		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
 		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
 		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/main.c">
