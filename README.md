@@ -80,7 +80,7 @@ Something about it:
 | Modify data of specific content  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -mc "Alexandru"`` |
 | Modify data of specific content with `<location 2>` argument  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -mc "Alexandru" "\age" "21"`` |
 | Delete data and entries of specific content     | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\" -dc NULL`` |
-| Delete data and entries of specific content with `<location 2>` argument     | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -dc "Alexandru`` |
+| Delete data and entries of specific content with `<location 2>` argument     | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -dc "Alexandru" "\country" "Europe\Bucharest"`` |
 | Delete entry of specific content  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -dc "Alexandru"`` |
 
 * * Add data of specific content
@@ -229,6 +229,11 @@ Something about it:
 {
   "students": [
     {
+      "name": "Alexandru",
+      "age": 29,
+      "country": "Europe/Slatina"
+    },
+    {
       "name": "Robert",
       "age": 19,
       "country": "Europe/Bucharest"
@@ -246,6 +251,11 @@ Something about it:
       "name": "Alexandru",
       "age": 17,
       "country": "Europe/Bucharest"
+    },
+    {
+      "name": "Alexandru",
+      "age": 29,
+      "country": "Europe/Slatina"
     },
     {
       "name": "Robert",
