@@ -93,12 +93,12 @@ clean: CMakeFiles/ScheduleSQL.dir/clean
 CMakeFiles/ScheduleSQL.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=1,2 "Built target ScheduleSQL"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target ScheduleSQL"
 .PHONY : CMakeFiles/ScheduleSQL.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ScheduleSQL.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ScheduleSQL.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/ScheduleSQL.dir/rule

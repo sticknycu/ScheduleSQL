@@ -142,6 +142,87 @@ ScheduleSQL/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/build
 .PHONY : ScheduleSQL/fast
 
+src/uso/instructions/create.o: src/uso/instructions/create.c.o
+
+.PHONY : src/uso/instructions/create.o
+
+# target to build an object file
+src/uso/instructions/create.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.o
+.PHONY : src/uso/instructions/create.c.o
+
+src/uso/instructions/create.i: src/uso/instructions/create.c.i
+
+.PHONY : src/uso/instructions/create.i
+
+# target to preprocess a source file
+src/uso/instructions/create.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.i
+.PHONY : src/uso/instructions/create.c.i
+
+src/uso/instructions/create.s: src/uso/instructions/create.c.s
+
+.PHONY : src/uso/instructions/create.s
+
+# target to generate assembly for a file
+src/uso/instructions/create.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.s
+.PHONY : src/uso/instructions/create.c.s
+
+src/uso/instructions/delete.o: src/uso/instructions/delete.c.o
+
+.PHONY : src/uso/instructions/delete.o
+
+# target to build an object file
+src/uso/instructions/delete.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.o
+.PHONY : src/uso/instructions/delete.c.o
+
+src/uso/instructions/delete.i: src/uso/instructions/delete.c.i
+
+.PHONY : src/uso/instructions/delete.i
+
+# target to preprocess a source file
+src/uso/instructions/delete.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.i
+.PHONY : src/uso/instructions/delete.c.i
+
+src/uso/instructions/delete.s: src/uso/instructions/delete.c.s
+
+.PHONY : src/uso/instructions/delete.s
+
+# target to generate assembly for a file
+src/uso/instructions/delete.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.s
+.PHONY : src/uso/instructions/delete.c.s
+
+src/uso/instructions/modify.o: src/uso/instructions/modify.c.o
+
+.PHONY : src/uso/instructions/modify.o
+
+# target to build an object file
+src/uso/instructions/modify.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.o
+.PHONY : src/uso/instructions/modify.c.o
+
+src/uso/instructions/modify.i: src/uso/instructions/modify.c.i
+
+.PHONY : src/uso/instructions/modify.i
+
+# target to preprocess a source file
+src/uso/instructions/modify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.i
+.PHONY : src/uso/instructions/modify.c.i
+
+src/uso/instructions/modify.s: src/uso/instructions/modify.c.s
+
+.PHONY : src/uso/instructions/modify.s
+
+# target to generate assembly for a file
+src/uso/instructions/modify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScheduleSQL.dir/build.make CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.s
+.PHONY : src/uso/instructions/modify.c.s
+
 src/uso/main.o: src/uso/main.c.o
 
 .PHONY : src/uso/main.o
@@ -178,6 +259,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ScheduleSQL"
+	@echo "... src/uso/instructions/create.o"
+	@echo "... src/uso/instructions/create.i"
+	@echo "... src/uso/instructions/create.s"
+	@echo "... src/uso/instructions/delete.o"
+	@echo "... src/uso/instructions/delete.i"
+	@echo "... src/uso/instructions/delete.s"
+	@echo "... src/uso/instructions/modify.o"
+	@echo "... src/uso/instructions/modify.i"
+	@echo "... src/uso/instructions/modify.s"
 	@echo "... src/uso/main.o"
 	@echo "... src/uso/main.i"
 	@echo "... src/uso/main.s"

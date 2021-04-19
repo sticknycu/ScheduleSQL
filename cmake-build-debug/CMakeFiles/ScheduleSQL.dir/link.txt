@@ -1,1 +1,1 @@
-/usr/bin/cc -g CMakeFiles/ScheduleSQL.dir/src/uso/main.c.o -o ScheduleSQL 
+/usr/bin/cc -g CMakeFiles/ScheduleSQL.dir/src/uso/main.c.o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.o CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.o -o ScheduleSQL 

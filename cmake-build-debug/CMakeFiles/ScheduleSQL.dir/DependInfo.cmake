@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/create.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.o"
+  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.o"
+  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.o"
   "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/main.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

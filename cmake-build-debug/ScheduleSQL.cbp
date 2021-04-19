@@ -76,6 +76,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/create.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/create.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.c">
+			<Option target="ScheduleSQL"/>
+		</Unit>
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.h">
+			<Option target="ScheduleSQL"/>
+		</Unit>
 		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/main.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
