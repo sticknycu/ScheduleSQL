@@ -42,11 +42,11 @@ Something about it:
 
 ## Syntax Arguments
 
-``-<type of action> <name of database> -<optional flag> <location database> -<interaction flag> <location 1> <location 2> <location 3>``
+``-<type of action> <name of database> -<instruction flag> <location database> -<interaction flag> <location 1> <location 2> <location 3>``
 
 
 
-| Type of action | Optional flag | Interaction flag |
+| Type of action | Instruction flag | Interaction flag |
 | :---: | :---: | :---: |
 | -c | -t | -ac 
 | -d |    | -mc
@@ -58,12 +58,8 @@ Something about it:
  * If we want to delete a database, we will use `-d` argument.
  * If we want to modify a database, we will use `-m` argument.
 
-**Optional** flag is not mandatory flag. This flag is used more for modify/insert data actions.
- * If we want to delete all the database, we will **NOT** use this argument: `-d ScheduleSQL.json`
+**Instruction** flag is a mandatory flag. This flag is used, for now, only to get target/folder location of database.
 
-**Location database** flag is used to know location of the database.
- * We can have more databases with the same name, but in different locations.
- 
 **Interaction** flag is mandatory. With this flag we set action of interaction
  * It can be `add/modify/delete` content using: `-ad / -mc / -dc`
  * About them:
