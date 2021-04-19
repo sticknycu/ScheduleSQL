@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addData.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addEntry.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/create.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteEntry.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.o"
-  "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/main.c" "/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/main.c.o"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/add/addData.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addData.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/add/addEntry.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/add/addEntry.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/create.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/create.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataArgument.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteDataSimple.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteEntry.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/delete/deleteEntry.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataArgument.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/instructions/modify/modifyDataSimple.c.obj"
+  "C:/ScheduleSQL/ScheduleSQL/src/uso/main.c" "C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir/src/uso/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
