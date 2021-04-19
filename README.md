@@ -53,12 +53,12 @@ Something about it:
 | -m |    | -dc
 |    |    | -lc
 
-**Type of action** flag is a mandatory flag. This flag is used to know what we want to do:
+**Type of action** flag is mandatory. This flag is used to know what we want to do:
  * If we want to create a database, we will use `-c` argument.
  * If we want to delete a database, we will use `-d` argument.
  * If we want to modify a database, we will use `-m` argument.
 
-**Instruction** flag is a mandatory flag. This flag is used, for now, only to get target/folder location of database.
+**Instruction** flag is mandatory. This flag is used, for now, only to get target/folder location of database.
 
 **Interaction** flag is mandatory. With this flag we set action of interaction
  * It can be `add/modify/delete` content using: `-ad / -mc / -dc`
@@ -136,7 +136,7 @@ Something about it:
 }
 ```
 * * Modify data of specific content
-    * Before:
+    * After:
 ```json
 {
   "students": {
