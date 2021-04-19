@@ -34,7 +34,7 @@ Something about it:
 
 ### Example:
 
-| Instuction                        | Arguments                        |
+| Instruction                        | Arguments                        |
 | --------------------------------  | --------------------------------------------------   |
 | Create database                   | ``-c ScheduleSQL.json -t "~/my/database/folder"``  |
 | Delete database                   | ``-d ScheduleSQL.json -t "~/my/database/folder"``  |
