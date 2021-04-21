@@ -8,139 +8,141 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/ScheduleSQL/ScheduleSQL/cmake-build-debug"/>
+				<Option working_dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/ScheduleSQL/ScheduleSQL/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ScheduleSQL">
-				<Option output="C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/ScheduleSQL.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/ScheduleSQL/ScheduleSQL/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScheduleSQL"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ScheduleSQL/fast">
-				<Option output="C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/ScheduleSQL.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/ScheduleSQL/ScheduleSQL/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScheduleSQL/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/ScheduleSQL/ScheduleSQL/cmake-build-debug"/>
+				<Option working_dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/ScheduleSQL/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ScheduleSQL">
+				<Option output="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/ScheduleSQL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScheduleSQL"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ScheduleSQL/fast">
+				<Option output="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/ScheduleSQL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScheduleSQL/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul\ 1/Semestrul\ 2/USO/ScheduleSQL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/add/addData.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addData.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/add/addData.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addData.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/add/addEntry.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addEntry.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/add/addEntry.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/add/addEntry.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/create.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/create.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/create.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/create.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataArgument.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteDataSimple.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteEntry.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteEntry.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/delete/deleteEntry.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/delete/deleteEntry.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataArgument.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/instructions/modify/modifyDataSimple.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/main.c">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/main.c">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/src/uso/main.h">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/src/uso/main.h">
 			<Option target="ScheduleSQL"/>
 		</Unit>
-		<Unit filename="C:/ScheduleSQL/ScheduleSQL/CMakeLists.txt">
+		<Unit filename="/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

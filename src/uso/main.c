@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <json-c/json.h>
-
-
+#ifdef __linux__
+#include "../json-c/json.h"
+#else
+#include "..\json-c\json.h"
+#endif //__linux__
 
 // Because SIG_DFL or SIG_IGN could be NULL instead of nullptr, we need to disable the Clang warning here
 #ifdef __clang__
