@@ -1,3 +1,0 @@
-/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/nycuro/Desktop/Scoala/Facultate/FMI/Anul 1/Semestrul 2/USO/ScheduleSQL/cmake-build-debug/CMakeFiles/ScheduleSQL.dir
