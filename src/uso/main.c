@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+
 #include "instructions/create.h"
+#include "instructions/delete.h"
 
 #ifdef __linux__
 #include "../json-c/json.h"
@@ -35,6 +37,12 @@ int main(int argc, char** argv) {
             createFile(argv[2]);
         } else {
             createDatabase(argv[2], argv[4]);
+        }
+    } else if (strcmp(argv[1], "-d") == 0) {
+        if (strcmp(argv[3], "-t") != 0) {
+            deleteFile(argv[2]);
+        } else {
+            deleteDatabase(argv[2], argv[4]);
         }
     }
 
