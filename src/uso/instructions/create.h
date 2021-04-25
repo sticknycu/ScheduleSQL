@@ -1,10 +1,11 @@
 #ifndef SCHEDULESQL_CREATE_H
 #define SCHEDULESQL_CREATE_H
 
+#include <stdio.h>
 
-void create() {
+void createDatabase(char* nameFile, char* target);
 
-};
+void createFile(char* nameFile);
 
 
 #endif //SCHEDULESQL_CREATE_H

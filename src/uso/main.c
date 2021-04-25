@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include "instructions/create.h"
+
 #ifdef __linux__
 #include "../json-c/json.h"
 #else
@@ -17,38 +18,30 @@
 
 
 int main(int argc, char** argv) {
-    char src[50], dest[50];
-
-    // program.exe -c BazaDeDate.json // CREATE
-    // program.exe -u BazaDeDate.json -i angajati -t nume -m Albert // INSERT
-    // program.exe -d BazaDeDate.json // DELETE
+    /*
+     * ``-<type of action>
+     * <name of database>
+     * -<instruction flag>
+     * <location database>
+     * -<interaction flag>
+     * <location 1> <location 2> <location 3>``
+     */
 
     puts("");
     printf("Argumente: %s %s" , argv[1], argv[2]);
-    /*if (strcmp(argv[1], "-u") == 0) {
-        // baza de date = BazaDeDate.json
-        if (strcmp(argv[3], "-i")) {
-            // inseram
 
-        }
-    }*/
     if (strcmp(argv[1], "-c") == 0) {
-        // scriem codul pentru create
-        // touch BazaDeDate.sql
-        strcpy(src,  argv[2]);
-        strcpy(dest, "touch ");
-        // Concatenare "touch " + "BazaDeDate.json"
-        // Pentru a face intr-un string "touch BazaDeDate.json"
-        // system("touch BazaDeDate.json");
-
-        strcat(dest, src);
-        system(dest);
+        if (strcmp(argv[3], "-t") != 0) {
+            createFile(argv[2]);
+        } else {
+            createDatabase(argv[2], argv[4]);
+        }
     }
 
-    if (strcmp(argv[1], "-d") == 0) {
+    /*if (strcmp(argv[1], "-d") == 0) {
         puts("");
         remove(argv[2]);
-    }
+    }*/
     puts("");
     return 0;
 }
