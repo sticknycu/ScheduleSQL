@@ -75,4 +75,4 @@ notifications:
 
 branches:
   only:
-    - master
+    - main
