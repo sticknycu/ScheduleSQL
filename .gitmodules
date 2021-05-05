@@ -1,3 +1,3 @@
 [submodule "src/json-c"]
 	path = src/json-c
-	url = https://github.com/jehiah/json-c
+	url = https://github.com/nicugnm/json-c

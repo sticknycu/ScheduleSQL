@@ -71,8 +71,8 @@ script: ./travisbuild.sh
 notifications:
   email:
     on_success: change
-    on_failure: always
+    on_failure: change
 
 branches:
   only:
-    - master
+    - main
