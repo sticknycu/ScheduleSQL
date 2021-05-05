@@ -45,9 +45,10 @@ jobs:
       before_install: *use-cmake
       env: *Debug
 
-    - name: "GCC 7.5 - Release, CMake 3.13, No Unity"
+    - name: "GCC 7.5 - Release, CMake 3.19, No Unity"
       compiler: gcc
       before_install:
+        - chmod +x travisbuild.sh
         - wget --output-document=${HOME}/CMake http://cmake.org/files/v3.19/cmake-3.19.0-Linux-x86_64.tar.gz
         - tar --extract --one-top-level=${HOME}/SeeMake --strip-components 1 --file ${HOME}/CMake
         - export PATH=${HOME}/SeeMake/bin/:${PATH}
