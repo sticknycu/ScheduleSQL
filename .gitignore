@@ -4,6 +4,9 @@
 # CMake build debug
 cmake-build-debug/*
 
+# Travis tests
+Testing/*
+
 # Object files
 *.o
 *.ko
