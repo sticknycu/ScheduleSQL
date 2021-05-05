@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-#define S_IRWXU _S_IRWXU
 
 void createFile(char *nameFile) {
     char src[1000], dest[1000];

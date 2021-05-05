@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-#define S_IRWXU _S_IRWXU
 
 void deleteFile(char *nameFile) {
     char src[1000], dest[1000];
