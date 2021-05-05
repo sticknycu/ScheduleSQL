@@ -4,7 +4,9 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-void deleteFile(char* nameFile) {
+#define S_IRWXU _S_IRWXU
+
+void deleteFile(char *nameFile) {
     char src[1000], dest[1000];
 
     // Concatenare "rm -r " + target
@@ -26,7 +28,7 @@ void deleteDatabase(char* name, char* target) {
 
     // Daca nu gaseste fisierul
     if(system(dest) == -1) {
-        mkdir(target);
+        mkdir(target, S_IRWXU);
         chdir(target);
         deleteFile(name);
         // Daca gaseste fisierul

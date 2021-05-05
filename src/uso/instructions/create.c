@@ -4,13 +4,15 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-void createFile(char* nameFile) {
+#define S_IRWXU _S_IRWXU
+
+void createFile(char *nameFile) {
     char src[1000], dest[1000];
 
     // Concatenare "touch " + "BazaDeDate.json"
     // Pentru a face intr-un string "touch BazaDeDate.json"
     // system("touch BazaDeDate.json");
-    strcpy(src,  nameFile);
+    strcpy(src, nameFile);
     strcpy(dest, "touch ");
 
     strcat(dest, src);
@@ -33,7 +35,7 @@ void createDatabase(char* name, char* target) {
     // Daca nu a gasit directorul
     if (system(dest) == -1) {
         // Creeaza directorul
-        mkdir(target);
+        mkdir(target, S_IRWXU);
         // Mergem in directorul respectiv
         chdir(target);
         // Cream fisierul
