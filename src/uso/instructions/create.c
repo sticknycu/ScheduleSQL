@@ -33,7 +33,7 @@ void createDatabase(char* name, char* target) {
     // Daca nu a gasit directorul
     if (system(dest) == -1) {
         // Creeaza directorul
-        mkdir(target);
+        mkdir(target, S_IRWXU);
         // Mergem in directorul respectiv
         chdir(target);
         // Cream fisierul

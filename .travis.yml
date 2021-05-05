@@ -25,6 +25,8 @@ jobs:
       dist: focal # For Clang 10, bionic is Clang 6 for some reason.
       before_install: &use-cmake
         - export PATH=/snap/bin/:${PATH}
+      before_script:
+        - chmod +x travisbuild.sh
       env: *Debug
 
     - name: "AppleClang - Debug"
@@ -32,26 +34,33 @@ jobs:
       osx_image: xcode11.3
       before_install:
         - HOMEBREW_NO_AUTO_UPDATE=1 brew install ccache
+      before_script:
+        - chmod +x travisbuild.sh
       env: &Debug
         - TRAVIS_SCHEDULESQL_BUILD_TYPE=Debug
 
     - name: "Clang 7.0 - Release"
       compiler: clang
       before_install: *use-cmake
+      before_script:
+        - chmod +x travisbuild.sh
       env: *Release
 
     - name: "Clang 7.0 - Debug"
       compiler: clang
       before_install: *use-cmake
+      before_script:
+        - chmod +x travisbuild.sh
       env: *Debug
 
     - name: "GCC 7.5 - Release, CMake 3.19, No Unity"
       compiler: gcc
       before_install:
-        - chmod +x travisbuild.sh
         - wget --output-document=${HOME}/CMake http://cmake.org/files/v3.19/cmake-3.19.0-Linux-x86_64.tar.gz
         - tar --extract --one-top-level=${HOME}/SeeMake --strip-components 1 --file ${HOME}/CMake
         - export PATH=${HOME}/SeeMake/bin/:${PATH}
+      before_script:
+        - chmod +x travisbuild.sh
       env:
         - TRAVIS_SCHEDULESQL_BUILD_TYPE=Release
         - TRAVIS_SCHEDULESQL_UNITY_BUILDS=No
@@ -59,6 +68,8 @@ jobs:
     - name: "GCC 7.5 - Debug"
       compiler: gcc
       before_install: *use-cmake
+      before_script:
+        - chmod +x travisbuild.sh
       env: *Debug
 
 # Do not let CMake find ccache wrappers
