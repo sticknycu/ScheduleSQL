@@ -1,8 +1,10 @@
 #ifndef SCHEDULESQL_MODIFY_H
 #define SCHEDULESQL_MODIFY_H
 
-void modify() {
+#include <stdio.h>
 
-};
+void modifyDatabase(char* nameFile, char* target, char* destination, char* newName);
+
+void modifyFile(char* nameFile, char* target, char* destination, char* newName);
 
 #endif //SCHEDULESQL_MODIFY_H
