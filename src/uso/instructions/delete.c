@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-
 void deleteFile(char *nameFile) {
     char src[1000], dest[1000];
 
@@ -27,7 +26,11 @@ void deleteDatabase(char* name, char* target) {
 
     // Daca nu gaseste fisierul
     if(system(dest) == -1) {
+#ifdef __linux__
         mkdir(target, S_IRWXU);
+#else
+        mkdir(target);
+#endif
         chdir(target);
         deleteFile(name);
         // Daca gaseste fisierul

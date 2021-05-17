@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 
-
 void createFile(char *nameFile) {
     char src[1000], dest[1000];
 
@@ -34,7 +33,11 @@ void createDatabase(char* name, char* target) {
     // Daca nu a gasit directorul
     if (system(dest) == -1) {
         // Creeaza directorul
+#ifdef __linux__
         mkdir(target, S_IRWXU);
+#else
+        mkdir(target);
+#endif
         // Mergem in directorul respectiv
         chdir(target);
         // Cream fisierul
