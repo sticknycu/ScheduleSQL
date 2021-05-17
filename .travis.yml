@@ -30,12 +30,17 @@ jobs:
         - TRAVIS_SCHEDULESQL_BUILD_TYPE=Release
         - TRAVIS_SCHEDULESQL_UNITY_BUILDS=No
 
-    - name: "GCC 7.5 - Debug"
+    - name: "GCC 7.5 - Debug, CMake 3.19, No Unity"
       compiler: gcc
-      before_install: *use-cmake
+      before_install:
+        - wget --output-document=${HOME}/CMake http://cmake.org/files/v3.19/cmake-3.19.0-Linux-x86_64.tar.gz
+        - tar --extract --one-top-level=${HOME}/SeeMake --strip-components 1 --file ${HOME}/CMake
+        - export PATH=${HOME}/SeeMake/bin/:${PATH}
       before_script:
         - chmod +x travisbuild.sh
-      env: *Debug
+      env:
+        - TRAVIS_SCHEDULESQL_BUILD_TYPE=Debug
+        - TRAVIS_SCHEDULESQL_UNITY_BUILDS=No
 
 # Do not let CMake find ccache wrappers
 # we use CMAKE_CXX_COMPILER_LAUNCHER for ccache support
