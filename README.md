@@ -2,7 +2,7 @@ ScheduleSQL
 
 * License [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 
-* Build Status [![Build Status]()]()
+* Build Status [![Build Status](https://travis-ci.com/nicugnm/ScheduleSQL.svg?branch=main)](https://travis-ci.org/nicugnm/ScheduleSQL)
 
 * Tests ![Tests]()
 
