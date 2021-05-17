@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/stat.h>
+#include <unistd.h>
 
 void deleteFile(char *nameFile) {
     char src[1000], dest[1000];

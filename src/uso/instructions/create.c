@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/stat.h>
+#include <unistd.h>
 
 void createFile(char *nameFile) {
     char src[1000], dest[1000];
