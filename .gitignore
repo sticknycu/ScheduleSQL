@@ -7,6 +7,9 @@ cmake-build-debug/*
 # Travis tests
 Testing/*
 
+# File from future
+src/uso/json.h
+
 # Object files
 *.o
 *.ko

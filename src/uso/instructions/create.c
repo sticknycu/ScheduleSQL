@@ -8,7 +8,7 @@
 #endif
 
 void createFile(char *nameFile) {
-    char src[1000], dest[1000], commands[1000];
+    char src[1000], dest[1000];
 
     strcpy(src, nameFile);
     strcpy(dest, "./create.sh ");
