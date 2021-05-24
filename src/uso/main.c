@@ -3,12 +3,7 @@
 #include "instructions/modify.h"
 #include "instructions/create.h"
 #include "instructions/delete.h"
-
-#ifdef __linux__
-#include "../json-c/json.h"
-#else
-#include "..\json-c\json.h"
-#endif //__linux__
+#include "instructions/add/addEntry.h"
 
 // Because SIG_DFL or SIG_IGN could be NULL instead of nullptr, we need to disable the Clang warning here
 #ifdef __clang__
@@ -30,26 +25,41 @@ int main(int argc, char** argv) {
      */
 
     puts("");
-    printf("Argumente: %s %s" , argv[1], argv[2]);
+    printf("Argumente: %s %s + %d", argv[1], argv[2], argc);
 
-    if (strcmp(argv[1], "-c") == 0) {
-        if (strcmp(argv[3], "-t") != 0) {
+    if (argc > 1 && strcmp(argv[1], "-c") == 0) {
+        if (argc > 3 && strcmp(argv[3], "-t") == 0) {
+            if (argc > 5 && strcmp(argv[5], "-lc") == 0) {
+                if (argc > 8) {
+                    addEntry(argv[2], argv[6], argv[8]);
+                } else {
+                    createFile(argv[2]);
+                }
+            } else if (argc > 4) {
+                createDatabase(argv[2], argv[4]);
+            } else {
+                createFile(argv[2]);
+            }
+        } else {
             createFile(argv[2]);
-        } else {
-            createDatabase(argv[2], argv[4]);
         }
-    } else if (strcmp(argv[1], "-d") == 0) {
-        if (strcmp(argv[3], "-t") != 0) {
-            deleteFile(argv[2]);
+    } else if (argc > 1 && strcmp(argv[1], "-d") == 0) {
+        if (argc > 3 && strcmp(argv[3], "-t") == 0) {
+            if (argc > 4) {
+                deleteDatabase(argv[2], argv[4]);
+            } else {
+                deleteFile(argv[2]);
+            }
         } else {
-            deleteDatabase(argv[2], argv[4]);
+            deleteFile(argv[2]);
         }
         // TODO: Check argv[0], argv[7]
-    } else if (strcmp(argv[1], "-m") == 0) {
-        if (strcmp(argv[3], "-t") != 0)
+    } else if (argc > 8 && strcmp(argv[1], "-m") == 0) {
+        if (strcmp(argv[3], "-t") == 0) {
             modifyFile(argv[2], argv[0], argv[0], argv[8]);
-        else
+        } else {
             modifyDatabase(argv[2], argv[4], argv[6], argv[8]);
+        }
     }
 
     /*if (strcmp(argv[1], "-d") == 0) {

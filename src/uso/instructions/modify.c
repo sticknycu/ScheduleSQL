@@ -3,7 +3,9 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/stat.h>
+#ifdef __linux__
 #include <unistd.h>
+#endif
 
 void modifyFile(char* nameFile, char* target, char* destination, char* newName) {
     char src[1000], dest[1000];

@@ -3,45 +3,25 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/stat.h>
+#ifdef __linux__
 #include <unistd.h>
+#endif
 
 void createFile(char *nameFile) {
-    char src[1000], dest[1000];
+    char src[1000], dest[1000], commands[1000];
 
-    // Concatenare "touch " + "BazaDeDate.json"
-    // Pentru a face intr-un string "touch BazaDeDate.json"
-    // system("touch BazaDeDate.json");
     strcpy(src, nameFile);
-    strcpy(dest, "touch ");
-
-    strcat(dest, src);
-
-    system(dest);
+    strcpy(dest, "./create.sh ");
+    system(strcat(dest, src));
 }
 
 void createDatabase(char* name, char* target) {
-    // Verificam daca exista directorul respectiv
     char src[1000], dest[1000];
 
-    // Concatenare "find " + target
-    // Pentru a face intr-un string "find target"
-    // system("find target");
-    strcpy(src,  target);
-    strcpy(dest, "find -d ");
+    strcpy(src, strcat(name, strcat(strcpy(src, " "), target)));
 
-    strcat(dest, src);
+    strcpy(dest, "./create_directory.sh ");
 
-    // Daca nu a gasit directorul
-    if (system(dest) == -1) {
-        // Creeaza directorul
-#ifdef __linux__
-        mkdir(target, S_IRWXU);
-#else
-        mkdir(target);
-#endif
-        // Mergem in directorul respectiv
-        chdir(target);
-        // Cream fisierul
-        createFile(name);
-    }
+    //printf("%s", strcat(dest, src));
+    system(strcat(dest, src));
 }
