@@ -3,18 +3,43 @@
 #include <string.h>
 #include <stdlib.h>
 #include <sys/stat.h>
+
 #ifdef __linux__
 #include <unistd.h>
 #endif
 
-void modifyFile(char* nameFile, char* target, char* destination, char* newName) {
+
+void modifyName(char *nameFile, char *newName) {
+    char src[1000], dest[1000];
+
+    strcpy(src, strcat(nameFile, strcat(strcpy(src, " "), newName)));
+
+    strcpy(dest, "./modify.sh ");
+
+    printf("\n%s", strcat(dest, src));
+    //system(strcat(dest, src));
+}
+
+void modifyNameTarget(char *nameFile, char *newName, char *destination) {
+    char src[1000], dest[1000], srcSecond[1000], srcThird[1000];
+
+    strcat(src, strcat(nameFile,
+                       strcat(strcpy(srcSecond, " "), strcat(newName, strcat(strcpy(srcThird, " "), destination)))));
+
+    strcpy(dest, "./modify_directory.sh ");
+
+    printf("\n%s", strcat(dest, src));
+    //system(strcat(dest, src));
+}
+
+void modifyFile(char *nameFile, char *target, char *destination, char *newName) {
     char src[1000], dest[1000];
 
     // Concatenare "mv " + "source " + "destination"
     // Pentru a face intr-un string "mv source destination"
     // system("mv ScheduleSQL.json target.json");
     char c[1000];
-    strcpy(c,"mv ");
+    strcpy(c, "mv ");
     strcat(c, target); //
     strcat(c,"/");
     strcat(c, nameFile);

@@ -53,19 +53,16 @@ int main(int argc, char** argv) {
         } else {
             deleteFile(argv[2]);
         }
-        // TODO: Check argv[0], argv[7]
-    } else if (argc > 8 && strcmp(argv[1], "-m") == 0) {
-        if (strcmp(argv[3], "-t") == 0) {
-            modifyFile(argv[2], argv[0], argv[0], argv[8]);
+    } else if (argc > 1 && strcmp(argv[1], "-m") == 0) {
+        if (argc > 3 && strcmp(argv[3], "-t") != 0) {
+            modifyName(argv[2], argv[3]);
         } else {
-            modifyDatabase(argv[2], argv[4], argv[6], argv[8]);
+            if (argc > 5 && strcmp(argv[5], "-lc") != 0) {
+                modifyNameTarget(argv[2], argv[5], argv[4]);
+            }
         }
     }
 
-    /*if (strcmp(argv[1], "-d") == 0) {
-        puts("");
-        remove(argv[2]);
-    }*/
     puts("");
     return 0;
 }

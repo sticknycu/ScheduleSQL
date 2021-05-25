@@ -3,8 +3,12 @@
 
 #include <stdio.h>
 
-void modifyDatabase(char* nameFile, char* target, char* destination, char* newName);
+void modifyName(char *nameFile, char *newName);
 
-void modifyFile(char* nameFile, char* target, char* destination, char* newName);
+void modifyNameTarget(char *nameFile, char *newName, char *destination);
+
+void modifyDatabase(char *nameFile, char *target, char *destination, char *newName);
+
+void modifyFile(char *nameFile, char *target, char *destination, char *newName);
 
 #endif //SCHEDULESQL_MODIFY_H

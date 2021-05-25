@@ -28,4 +28,6 @@ for arg in "$@"; do
   esac
 done
 
+# shellcheck disable=SC2164
+cd "${OTHER_ARGUMENTS[2]}"
 mv "${OTHER_ARGUMENTS[0]}" "${OTHER_ARGUMENTS[1]}"
