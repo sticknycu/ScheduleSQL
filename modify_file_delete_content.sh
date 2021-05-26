@@ -40,4 +40,4 @@ cd "${OTHER_ARGUMENTS[1]}"
 REZULTAT=$(jq --arg destination "${OTHER_ARGUMENTS[2]}" 'del(.[$destination])' "${OTHER_ARGUMENTS[0]}")
 rm -r "${OTHER_ARGUMENTS[0]}"
 touch "${OTHER_ARGUMENTS[0]}"
-echo $REZULTAT > "${OTHER_ARGUMENTS[0]}"
+echo $REZULTAT >"${OTHER_ARGUMENTS[0]}"

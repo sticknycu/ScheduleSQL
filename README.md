@@ -30,8 +30,7 @@ Something about it:
 | -d           | Delete data                                                                      |
 | -m           | Modify data                                                                 |
 | -t           | Set target                           | |
-| -mc          | Modify content
-| -ac          | Add content |
+| -mc          | Add/Modify content
 | -dc          | Delete content
 | -lc          | Location of content
 
@@ -41,115 +40,118 @@ Something about it:
 | --------------------------------  | --------------------------------------------------   |
 | Create database                   | ``-c ScheduleSQL.json -t "~/my/database/folder"``  |
 | Delete database                   | ``-d ScheduleSQL.json -t "~/my/database/folder"``  |
-| Modify data of specific database  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc ".students.name" -mc "Andrei"`` |
+| Add data of specific database  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc student -mc "Andrei"`` |
+| Modify data of specific database | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc student -mc "Andrei Stefan"`` |
+| Delete data of specific database | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc student -dc"`` |
 
 ## Syntax Arguments
 
-``-<type of action> <name of database> -<instruction flag> <location database> -<interaction flag> <location 1> <location 2> <location 3>``
+``-<type of action> <name of database> -<instruction flag> <location database> -<interaction flag> <location 1> -<instruction type flag> <location 2>``
 
-
-
-| Type of action | Instruction flag | Interaction flag |
-| :---: | :---: | :---: |
-| -c | -t | -ac 
-| -d |    | -mc
-| -m |    | -dc
-|    |    | -lc
+| Type of action | Instruction flag | Interaction flag | Instruction Type flag |
+| :---: | :---: | :---: | :---: |
+| -c | -t | -lc | -mc
+| -d |    |  | -dc
+| -m |    |  |
 
 **Type of action** flag is mandatory. This flag is used to know what we want to do:
- * If we want to create a database, we will use `-c` argument.
- * If we want to delete a database, we will use `-d` argument.
- * If we want to modify a database, we will use `-m` argument.
 
-**Instruction** flag is mandatory. This flag is used, for now, only to get target/folder location of database.
+* If we want to create a database, we will use `-c` argument.
+* If we want to delete a database, we will use `-d` argument.
+* If we want to modify a database, we will use `-m` argument.
 
-**Interaction** flag is mandatory. With this flag we set action of interaction
- * It can be `add/modify/delete` content using: `-ad / -mc / -dc`
- * About them:
-    - If we use `-ac`, key `<location 2>`, `<location 3>` is useless. If we use `<location 2>`, it will be ignored. If not, we will add content to entry from `-lc` and data from `<location 1>`
-    - If we use `-mc`, key `<location 2>` is optional. We use `-mc` when we want to modify content of actual structure, searching data from `<location 1>`, using `<location 2>`. If it exist, we will modify `-lc` with argument `<location 2>` using data of `<location 3>`.
-    - If we use `-dc`, key `<location 2>`, `<locaiton 3>` is useless. If we use `<location 2>`, it will be ignored. If `<location 1>` is a **NULL**, all entry and keys will be deleted. If there exist a string, only content will be deleted, not the entry.
+**Instruction** flag is optional. This flag is used, for now, only to get target/folder location of database.
+
+**Interaction** flag is optional. With this flag we set action of interaction
+
+* It can be `add/modify/delete` content using: `-mc / -dc`
+
+**Instruction Type flag** is mandatory if there exist **Interaction** flag.
+
+* About them:
+    - If we use `-mc`, key `<location 2>` is mandatory and has to be always a string. We use `-mc` when we want to
+      modify content or add content of actual structure, using entry of `<location 1>`. If it exist, we will
+      modify `-lc` with entry from `<location 1>`, using data of `<location 2>`.
+    - If we use `-dc`, key `<location 2>` is useless. If we use `<location 2>`, it will be ignored.
 
 ### Example:
 
 | Instuction                        | Arguments                        |
 | --------------------------------  | --------------------------------------------------   |
-| Add data of specific content     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -ac "Andrei"`` |
-| Add entry of specific content    | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -ac <"">`` |
-| Modify data of specific content  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -mc "Alexandru"`` |
-| Modify data of specific content with `<location 2>` argument  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name. -mc "Alexandru" ".age" "21"`` |
-| Delete data and entries of specific content     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students -dc`` |
+| Add data of specific content     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc key_name -ac "Andrei"`` |
+| Add entry of specific content    | ``-m ScheduleSQL.json -t ~/my/database/folder -lc key_name -ac <"">`` |
+| Modify data of specific content  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc key_name -mc "Alexandru"`` |
 
 * * Add data of specific content
      * Before:
+
 ```json
 {
-  "students": {
-    "age"     : 17,
-    "country" : "Europe/Bucharest"
-  }
+  "age"     : 17,
+  "country" : "Europe/Bucharest"
 }
 ```
 
 * * Add data of specific content
     * After:
+
 ```json
 {
-  "students": {
-    "name"    : "Andrei",
-    "age"     : 17,
-    "country" : "Europe/Bucharest"
-  }
+  "name"    : "Andrei",
+  "age"     : 17,
+  "country" : "Europe/Bucharest"
 }
 ```
 
 * * Add entry of specific content
     * Before:
+
 ```json
 {
-  "students": {
-    "age"     : 17,
-    "country" : "Europe/Bucharest"
-  }
+  "age"     : 17,
+  "country" : "Europe/Bucharest"
 }
 ```
 * * Add entry of specific content
     * After:
+
 ```json
 {
-  "students": {
-    "name"    : "",
-    "age"     : 17,
-    "country" : "Europe/Bucharest"
-  }
+  "name"    : "",
+  "age"     : 17,
+  "country" : "Europe/Bucharest"
 }
 ```
 
 * * Modify data of specific content
     * Before:
+
 ```json
 {
-  "students": {
-    "name"    : "Andrei",
-    "age"     : 17,
-    "country" : "Europe/Bucharest"
-  }
-}
-```
-* * Modify data of specific content
-    * After:
-```json
-{
-  "students": {
-    "name"    : "Alexandru",
-    "age"     : 17,
-    "country" : "Europe/Bucharest"
-  }
+  "name"    : "Andrei",
+  "age"     : 17,
+  "country" : "Europe/Bucharest"
 }
 ```
 
-* * Modify data of specific content with `<location 2>` argument
-    * Before:
+*
+    * Modify data of specific content
+        * After:
+
+```json
+{
+  "name"    : "Alexandru",
+  "age"     : 17,
+  "country" : "Europe/Bucharest"
+}
+```
+
+# TODO : ARRAYS
+
+*
+    * Modify data of specific content with `<location 2>` argument
+        * Before:
+
 ```json
 {
   "students": [

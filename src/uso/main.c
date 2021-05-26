@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
         } else {
             if (argc > 5 && strcmp(argv[5], "-lc") != 0) {
                 modifyNameTarget(argv[2], argv[5], argv[4]);
-            } else if (argc > 7 && strcmp(argv[7], "-ac") == 0) {
+            } else if (argc > 7 && strcmp(argv[7], "-mc") == 0) {
                 modifyFileAddContent(argv[2], argv[4], argv[6], argv[8]);
             } else if (argc > 7 && strcmp(argv[7], "-dc") == 0) {
                 modifyFileDeleteContent(argv[2], argv[4], argv[6]);
