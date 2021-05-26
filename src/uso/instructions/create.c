@@ -22,6 +22,6 @@ void createDatabase(char* name, char* target) {
 
     strcpy(dest, "./create_directory.sh ");
 
-    printf("\n%s", strcat(dest, src));
-    //system(strcat(dest, src));
+    //printf("\n%s", strcat(dest, src));
+    system(strcat(dest, src));
 }

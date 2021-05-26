@@ -12,7 +12,7 @@ void deleteFile(char *nameFile) {
 
     strcpy(src, nameFile);
     strcpy(dest, "./delete.sh ");
-    //system(strcat(dest, src));
+    system(strcat(dest, src));
 }
 
 void deleteDatabase(char* name, char* target) {
@@ -22,6 +22,6 @@ void deleteDatabase(char* name, char* target) {
 
     strcpy(dest, "./delete_directory.sh ");
 
-    printf("\n%s", strcat(dest, src));
-    //system(strcat(dest, src));
+    //printf("\n%s", strcat(dest, src));
+    system(strcat(dest, src));
 }

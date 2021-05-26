@@ -21,15 +21,15 @@ void modifyName(char *nameFile, char *newName) {
 }
 
 void modifyNameTarget(char *nameFile, char *newName, char *destination) {
-    char src[1000], dest[1000], srcSecond[1000], srcThird[1000];
-
-    strcat(src, strcat(nameFile,
-                       strcat(strcpy(srcSecond, " "), strcat(newName, strcat(strcpy(srcThird, " "), destination)))));
+    char src[1000], dest[1000];
 
     strcpy(dest, "./modify_directory.sh ");
 
-    printf("\n%s", strcat(dest, src));
-    //system(strcat(dest, src));
+    strcpy(src, strcat(strcat(nameFile, " "), strcat(strcat(newName, " "),
+                                                     destination)));
+
+    //printf("\n%s", strcat(dest, src));
+    system(strcat(dest, src));
 }
 
 void modifyFile(char *nameFile, char *target, char *destination, char *newName) {
