@@ -5,10 +5,10 @@
 
 void modifyName(char *nameFile, char *newName);
 
-void modifyNameTarget(char *nameFile, char *newName, char *destination);
+void modifyNameTarget(char *nameFile, char *newName, char *target);
 
 void modifyDatabase(char *nameFile, char *target, char *destination, char *newName);
 
-void modifyFile(char *nameFile, char *target, char *destination, char *newName);
+void modifyFile(char *nameFile, char *target, char *destination, char *entry);
 
 #endif //SCHEDULESQL_MODIFY_H

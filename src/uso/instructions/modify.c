@@ -20,34 +20,28 @@ void modifyName(char *nameFile, char *newName) {
     //system(strcat(dest, src));
 }
 
-void modifyNameTarget(char *nameFile, char *newName, char *destination) {
+void modifyNameTarget(char *nameFile, char *newName, char *target) {
     char src[1000], dest[1000];
 
     strcpy(dest, "./modify_directory.sh ");
 
     strcpy(src, strcat(strcat(nameFile, " "), strcat(strcat(newName, " "),
-                                                     destination)));
+                                                     target)));
 
     //printf("\n%s", strcat(dest, src));
     system(strcat(dest, src));
 }
 
-void modifyFile(char *nameFile, char *target, char *destination, char *newName) {
+void modifyFile(char *nameFile, char *target, char *destination, char *entry) {
     char src[1000], dest[1000];
 
-    // Concatenare "mv " + "source " + "destination"
-    // Pentru a face intr-un string "mv source destination"
-    // system("mv ScheduleSQL.json target.json");
-    char c[1000];
-    strcpy(c, "mv ");
-    strcat(c, target); //
-    strcat(c,"/");
-    strcat(c, nameFile);
-    strcat(c, " ");
-    strcat(c, destination);
-    strcat(c, newName);
+    strcpy(dest, "./modify_file.sh ");
 
-    system(dest);
+    strcpy(src, strcat(strcat(nameFile, " "), strcat(strcat(target, " "),
+                                                     strcat(strcat(destination, " "), entry))));
+
+    //printf("\n%s", strcat(dest, src));
+    system(strcat(dest, src));
 }
 
 void modifyDatabase(char* name, char* target, char* destination, char* newName) {

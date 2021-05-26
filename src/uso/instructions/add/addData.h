@@ -1,8 +1,0 @@
-#ifndef SCHEDULESQL_ADDDATA_H
-#define SCHEDULESQL_ADDDATA_H
-
-void addData() {
-
-};
-
-#endif //SCHEDULESQL_ADDDATA_H

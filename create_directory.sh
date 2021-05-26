@@ -30,7 +30,7 @@ done
 
 # shellcheck disable=SC2046
 if [ $(find . -type d -name "${OTHER_ARGUMENTS[1]}" | wc -l) -gt 0 ]; then
-  cd "${OTHER_ARGUMENTS[1]}" && touch "${OTHER_ARGUMENTS[0]}"
+  cd "${OTHER_ARGUMENTS[1]}" && touch "${OTHER_ARGUMENTS[0]}" && echo "{}" >>"${OTHER_ARGUMENTS[0]}"
 else
-  mkdir "${OTHER_ARGUMENTS[1]}" && cd "${OTHER_ARGUMENTS[1]}" && touch "${OTHER_ARGUMENTS[0]}"
+  mkdir "${OTHER_ARGUMENTS[1]}" && cd "${OTHER_ARGUMENTS[1]}" && touch "${OTHER_ARGUMENTS[0]}" && echo "{}" >>"${OTHER_ARGUMENTS[0]}"
 fi

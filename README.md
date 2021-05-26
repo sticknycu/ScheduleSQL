@@ -18,6 +18,9 @@ Something about it:
 
 * Written in C, ScheduleSQL is faster and stable.
 * Having a friendly structure, it's easy to contribute to it.
+* You need to have installed library: `jq`
+*
+    * For that, use `apt install jq`
 
 # Script flags
 
@@ -38,7 +41,7 @@ Something about it:
 | --------------------------------  | --------------------------------------------------   |
 | Create database                   | ``-c ScheduleSQL.json -t "~/my/database/folder"``  |
 | Delete database                   | ``-d ScheduleSQL.json -t "~/my/database/folder"``  |
-| Modify data of specific database  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -mc "Andrei"`` |
+| Modify data of specific database  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc ".students.name" -mc "Andrei"`` |
 
 ## Syntax Arguments
 
@@ -71,13 +74,13 @@ Something about it:
 
 | Instuction                        | Arguments                        |
 | --------------------------------  | --------------------------------------------------   |
-| Add data of specific content     | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -ac "Andrei"`` |
-| Add entry of specific content    | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -ac <NULL or "">`` |
-| Modify data of specific content  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -mc "Alexandru"`` |
-| Modify data of specific content with `<location 2>` argument  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -mc "Alexandru" "\age" "21"`` |
-| Delete data and entries of specific content     | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\" -dc NULL`` |
-| Delete data and entries of specific content with `<location 2>` argument     | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -dc "Alexandru" "\country" "Europe\Bucharest"`` |
-| Delete entry of specific content  | ``-m ScheduleSQL.json -t "~/my/database/folder" -lc "\students\name\" -dc "Alexandru"`` |
+| Add data of specific content     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -ac "Andrei"`` |
+| Add entry of specific content    | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -ac <"">`` |
+| Modify data of specific content  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -mc "Alexandru"`` |
+| Modify data of specific content with `<location 2>` argument  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name. -mc "Alexandru" ".age" "21"`` |
+| Delete data and entries of specific content     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students -dc ""`` |
+| Delete data and entries of specific content with `<location 2>` argument     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -dc "Alexandru" .country "Europe\Bucharest"`` |
+| Delete entry of specific content  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -dc "Alexandru"`` |
 
 * * Add data of specific content
      * Before:

@@ -59,6 +59,8 @@ int main(int argc, char** argv) {
         } else {
             if (argc > 5 && strcmp(argv[5], "-lc") != 0) {
                 modifyNameTarget(argv[2], argv[5], argv[4]);
+            } else if (argc > 7 && strcmp(argv[7], "-ac") == 0) {
+                modifyFile(argv[2], argv[4], argv[6], argv[8]);
             }
         }
     }
