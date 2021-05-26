@@ -78,9 +78,7 @@ Something about it:
 | Add entry of specific content    | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -ac <"">`` |
 | Modify data of specific content  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -mc "Alexandru"`` |
 | Modify data of specific content with `<location 2>` argument  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name. -mc "Alexandru" ".age" "21"`` |
-| Delete data and entries of specific content     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students -dc ""`` |
-| Delete data and entries of specific content with `<location 2>` argument     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -dc "Alexandru" .country "Europe\Bucharest"`` |
-| Delete entry of specific content  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students.name -dc "Alexandru"`` |
+| Delete data and entries of specific content     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc students -dc`` |
 
 * * Add data of specific content
      * Before:

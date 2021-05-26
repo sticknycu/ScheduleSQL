@@ -3,7 +3,6 @@
 #include "instructions/modify.h"
 #include "instructions/create.h"
 #include "instructions/delete.h"
-#include "instructions/add/addEntry.h"
 
 // Because SIG_DFL or SIG_IGN could be NULL instead of nullptr, we need to disable the Clang warning here
 #ifdef __clang__
@@ -29,13 +28,7 @@ int main(int argc, char** argv) {
 
     if (argc > 1 && strcmp(argv[1], "-c") == 0) {
         if (argc > 3 && strcmp(argv[3], "-t") == 0) {
-            if (argc > 5 && strcmp(argv[5], "-lc") == 0) {
-                if (argc > 8) {
-                    addEntry(argv[2], argv[6], argv[8]);
-                } else {
-                    createFile(argv[2]);
-                }
-            } else if (argc > 4) {
+            if (argc > 4) {
                 createDatabase(argv[2], argv[4]);
             } else {
                 createFile(argv[2]);
@@ -60,7 +53,9 @@ int main(int argc, char** argv) {
             if (argc > 5 && strcmp(argv[5], "-lc") != 0) {
                 modifyNameTarget(argv[2], argv[5], argv[4]);
             } else if (argc > 7 && strcmp(argv[7], "-ac") == 0) {
-                modifyFile(argv[2], argv[4], argv[6], argv[8]);
+                modifyFileAddContent(argv[2], argv[4], argv[6], argv[8]);
+            } else if (argc > 7 && strcmp(argv[7], "-dc") == 0) {
+                modifyFileDeleteContent(argv[2], argv[4], argv[6]);
             }
         }
     }
