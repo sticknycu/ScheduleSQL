@@ -49,14 +49,15 @@ before_script:
 
 # Run the build and tests
 # script: ./travisbuild.sh
-script:
-  - cmake .
-  - make
+script: ./travisbuild.sh
 
 notifications:
   email:
-    on_success: change
-    on_failure: change
+    on_success: never
+    on_failure: never
+    on_error: never
+    on_cancel: never
+    on_start: never
 
 branches:
   only:

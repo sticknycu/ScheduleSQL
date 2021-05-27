@@ -81,6 +81,7 @@ Something about it:
 | Add data of specific content     | ``-m ScheduleSQL.json -t ~/my/database/folder -lc key_name -ac "Andrei"`` |
 | Add entry of specific content    | ``-m ScheduleSQL.json -t ~/my/database/folder -lc key_name -ac <"">`` |
 | Modify data of specific content  | ``-m ScheduleSQL.json -t ~/my/database/folder -lc key_name -mc "Alexandru"`` |
+| Delete data of specific content | ``-m ScheduleSQL.json -t ~/my/database/folder -lc key_name -dc`` |
 
 * * Add data of specific content
      * Before:
@@ -146,134 +147,25 @@ Something about it:
 }
 ```
 
-# TODO : ARRAYS
-
 *
-    * Modify data of specific content with `<location 2>` argument
+    * Delete data of specific content
         * Before:
 
 ```json
 {
-  "students": [
-    {
-      "name": "Alexandru",
-      "age": 17,
-      "country": "Europe/Bucharest"
-    }
-  ]
-}
-```
-* * Modify data of specific content with `<location 2>` argument
-    * After:
-```json
-{
-  "students": [
-    {
-      "name": "Alexandru",
-      "age": 21,
-      "country": "Europe/Bucharest"
-    }
-  ]
+  "name"    : "Andrei",
+  "age"     : 17,
+  "country" : "Europe/Bucharest"
 }
 ```
 
-* * Delete data and entries of specific content
-    * Before:
-```json
-{
-  "students": [
-    {
-      "name": "Alexandru",
-      "age": 17,
-      "country": "Europe/Bucharest"
-    }
-  ]
-}
-```
-* * Delete data and entries of specific content
-    * After:
-```json
-{
-  "students": [
-  ]
-}
-```
+*
+    * Delete data of specific content
+        * After:
 
-* * Delete data of specific content with `<location 2>` argument
-    * Before:
 ```json
 {
-  "students": [
-    {
-      "name": "Alexandru",
-      "age": 17,
-      "country": "Europe/Bucharest"
-    },
-    {
-      "name": "Alexandru",
-      "age": 29,
-      "country": "Europe/Slatina"
-    },
-    {
-      "name": "Robert",
-      "age": 19,
-      "country": "Europe/Bucharest"
-    }
-  ]
-}
-```
-* * Delete data of specific content with `<location 2>` argument
-    * After:
-```json
-{
-  "students": [
-    {
-      "name": "Alexandru",
-      "age": 29,
-      "country": "Europe/Slatina"
-    },
-    {
-      "name": "Robert",
-      "age": 19,
-      "country": "Europe/Bucharest"
-    }
-  ]
-}
-```
-
-* * Delete data of specific content
-    * Before:
-```json
-{
-  "students": [
-    {
-      "name": "Alexandru",
-      "age": 17,
-      "country": "Europe/Bucharest"
-    },
-    {
-      "name": "Alexandru",
-      "age": 29,
-      "country": "Europe/Slatina"
-    },
-    {
-      "name": "Robert",
-      "age": 19,
-      "country": "Europe/Bucharest"
-    }
-  ]
-}
-```
-* * Delete data of specific content
-    * After:
-```json
-{
-  "students": [
-    {
-      "name": "Robert",
-      "age": 19,
-      "country": "Europe/Bucharest"
-    }
-  ]
+  "age"     : 17,
+  "country" : "Europe/Bucharest"
 }
 ```
