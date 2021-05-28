@@ -21,7 +21,7 @@ jobs:
     - name: "GCC 7.5 - Release, CMake 3.19, No Unity"
       compiler: gcc
       before_install:
-        - wget --output-document=${HOME}/CMake https://cmake.org/files/v3.19/cmake-3.19.0-Linux-x86_64.tar.gz
+        - wget --output-document=${HOME}/CMake https://cmake.org/files/v3.19/cmake-3.19.0-Linux-x86_64.tar.gz --no-check-certificate
         - tar --extract --one-top-level=${HOME}/SeeMake --strip-components 1 --file ${HOME}/CMake
         - export PATH=${HOME}/SeeMake/bin/:${PATH}
       env:
@@ -31,7 +31,7 @@ jobs:
     - name: "GCC 7.5 - Debug, CMake 3.19, No Unity"
       compiler: gcc
       before_install:
-        - wget --output-document=${HOME}/CMake https://cmake.org/files/v3.19/cmake-3.19.0-Linux-x86_64.tar.gz
+        - wget --output-document=${HOME}/CMake https://cmake.org/files/v3.19/cmake-3.19.0-Linux-x86_64.tar.gz --no-check-certificate
         - tar --extract --one-top-level=${HOME}/SeeMake --strip-components 1 --file ${HOME}/CMake
         - export PATH=${HOME}/SeeMake/bin/:${PATH}
       env:
