@@ -59,6 +59,6 @@ if [ "$TRAVIS_SCHEDULESQL_BUILD_TYPE" != "COVERAGE" ]; then
     echo "$FILE exists so it's not ok."
     exit 1
   else
-    echi "$FILE do not exist, so it's ok."
+    echo "$FILE do not exist, so it's ok."
   fi
 fi
