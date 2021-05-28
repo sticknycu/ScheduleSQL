@@ -42,6 +42,15 @@ jobs:
 # we use CMAKE_CXX_COMPILER_LAUNCHER for ccache support
 before_script:
   - export PATH=$(echo "$PATH" | sed -e 's/:\/usr\/lib\/ccache//')
+  - chmod +x travisbuild.sh
+  - chmod +x create.sh
+  - chmod +x create_directory.sh
+  - chmod +x delete.sh
+  - chmod +x delete_directory.sh
+  - chmod +x modify.sh
+  - chmod +x modify_directory.sh
+  - chmod +x modify_file_add_content.sh
+  - chmod +x modify_file_delete_content.sh
 
 # Run the build and tests
 # script: ./travisbuild.sh

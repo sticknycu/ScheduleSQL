@@ -43,9 +43,10 @@ ctest --output-on-failure --parallel 2
 
 if [ "$TRAVIS_SCHEDULESQL_BUILD_TYPE" != "COVERAGE" ]; then
   ls -a
-  chmod +x schedulesql
-  ./schedulesql -c schedulesql.json -t root
+  chmod +x ScheduleSQL
+  ./ScheduleSQL -c schedulesql.json -t root
   cd root
+  ls -a
   read schedulesql.json
   if [ -f "$schedulesql.json" ]; then
     echo "File found so it's ok"
@@ -53,8 +54,9 @@ if [ "$TRAVIS_SCHEDULESQL_BUILD_TYPE" != "COVERAGE" ]; then
     exit 1
   fi
   EOF
-  ./schedulesql -d schedulesql.json -t root
+  ./ScheduleSQL -d schedulesql.json -t root
   cd root
+  ls -a
   read schedulesql.json
   if [ -f "$schedulesql.json" ]; then
     exit 1
