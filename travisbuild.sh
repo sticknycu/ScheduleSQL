@@ -42,6 +42,8 @@ echo "Testing..."
 ctest --output-on-failure --parallel 2
 
 if [ "$TRAVIS_SCHEDULESQL_BUILD_TYPE" != "COVERAGE" ]; then
+  ls -a
+  chmod +x schedulesql
   ./schedulesql -c schedulesql.json -t root
   cd root
   read schedulesql.json
