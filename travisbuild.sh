@@ -52,15 +52,11 @@ if [ "$TRAVIS_SCHEDULESQL_BUILD_TYPE" != "COVERAGE" ]; then
     echi "$FILE do not exist, so it's not ok."
     exit 1
   fi
-  EOF
   ./ScheduleSQL -d schedulesql.json -t root
-  cd root
-  FILE=schedulesql.json
   if [ -f "$FILE" ]; then
     echo "$FILE exists so it's not ok."
     exit 1
   else
     echi "$FILE do not exist, so it's ok."
   fi
-  EOF
 fi
