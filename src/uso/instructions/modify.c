@@ -16,8 +16,8 @@ void modifyName(char *nameFile, char *newName) {
 
     strcpy(dest, "./modify.sh ");
 
-    printf("\n%s", strcat(dest, src));
-    //system(strcat(dest, src));
+    //printf("\n%s", strcat(dest, src));
+    system(strcat(dest, src));
 }
 
 void modifyNameTarget(char *nameFile, char *newName, char *target) {
