@@ -14,17 +14,6 @@
 
 
 int main(int argc, char** argv) {
-    /*
-     * ``-<type of action>
-     * <name of database>
-     * -<instruction flag>
-     * <location database>
-     * -<interaction flag>
-     * <location 1> <location 2> <location 3>``
-     */
-
-    puts("");
-    printf("Argumente: %s %s + %d", argv[1], argv[2], argc);
 
     if (argc > 1 && strcmp(argv[1], "-c") == 0) {
         if (argc > 3 && strcmp(argv[3], "-t") == 0) {
@@ -60,6 +49,5 @@ int main(int argc, char** argv) {
         }
     }
 
-    puts("");
     return 0;
 }

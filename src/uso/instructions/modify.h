@@ -7,8 +7,6 @@ void modifyName(char *nameFile, char *newName);
 
 void modifyNameTarget(char *nameFile, char *newName, char *target);
 
-void modifyDatabase(char *nameFile, char *target, char *destination, char *newName);
-
 void modifyFileAddContent(char *nameFile, char *target, char *destination, char *entry);
 
 void modifyFileDeleteContent(char *nameFile, char *target, char *destination);

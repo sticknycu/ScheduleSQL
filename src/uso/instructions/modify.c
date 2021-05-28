@@ -55,28 +55,3 @@ void modifyFileDeleteContent(char *nameFile, char *target, char *destination) {
     //printf("\n%s", strcat(dest, src));
     system(strcat(dest, src));
 }
-
-void modifyDatabase(char *name, char *target, char *destination, char *newName) {
-    char src[1000], dest[1000];
-    strcpy(src, target);
-    strcpy(dest, "find -d ");
-
-    strcat(dest, src);
-
-    // Daca nu gaseste fisierul
-    if (system(dest) == -1) {
-#ifdef __linux__
-        mkdir(target, S_IRWXU);
-#else
-        mkdir(target);
-#endif
-        chdir(target);
-        //modifyFile(name, target, destination, newName);
-        // Daca gaseste fisierul
-    } else {
-        // Mergem in directorul respectiv
-        chdir(target);
-        // Stergem fisierul
-        //modifyFile(name, target, destination, newName);
-    }
-}

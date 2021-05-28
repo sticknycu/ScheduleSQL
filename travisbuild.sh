@@ -48,7 +48,8 @@ if [ "$TRAVIS_SCHEDULESQL_BUILD_TYPE" != "COVERAGE" ]; then
   cd root
   ls -a
   read schedulesql.json
-  if [ -f "$schedulesql.json" ]; then
+  export schedulesql=$(schedulesql.json)
+  if [ -f "$schedulesql" ]; then
     echo "File found so it's ok"
   else
     exit 1
@@ -58,7 +59,8 @@ if [ "$TRAVIS_SCHEDULESQL_BUILD_TYPE" != "COVERAGE" ]; then
   cd root
   ls -a
   read schedulesql.json
-  if [ -f "$schedulesql.json" ]; then
+  export schedulesql=$(schedulesql.json)
+  if [ -f "$schedulesql" ]; then
     exit 1
   else
     echo "File not found so it's ok"
