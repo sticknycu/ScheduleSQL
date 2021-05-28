@@ -42,28 +42,25 @@ echo "Testing..."
 ctest --output-on-failure --parallel 2
 
 if [ "$TRAVIS_SCHEDULESQL_BUILD_TYPE" != "COVERAGE" ]; then
-  ls -a
   chmod +x ScheduleSQL
   ./ScheduleSQL -c schedulesql.json -t root
   cd root
-  ls -a
-  read schedulesql.json
-  export schedulesql=$(schedulesql.json)
-  if [ -f "$schedulesql" ]; then
-    echo "File found so it's ok"
+  FILE=schedulesql.json
+  if [ -f "$FILE" ]; then
+    echo "$FILE exists so it's ok."
   else
+    echi "$FILE do not exist, so it's not ok."
     exit 1
   fi
   EOF
   ./ScheduleSQL -d schedulesql.json -t root
   cd root
-  ls -a
-  read schedulesql.json
-  export schedulesql=$(schedulesql.json)
-  if [ -f "$schedulesql" ]; then
+  FILE=schedulesql.json
+  if [ -f "$FILE" ]; then
+    echo "$FILE exists so it's not ok."
     exit 1
   else
-    echo "File not found so it's ok"
+    echi "$FILE do not exist, so it's ok."
   fi
   EOF
 fi
